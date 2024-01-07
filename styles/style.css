@@ -48,9 +48,9 @@ header {
 .container {
     display: flex;
     width: 1600px;
-    height: 3229px;
+    /* height: 3229px; */
     background: #FFF;
-  
+
     /* justify-content: space-around;  */
 }
 
@@ -88,4 +88,109 @@ header {
     margin: 9px 47px 0px 50px;
     padding: 131px 0px 0px 200px;
 
+}
+
+.plan {
+    color: #151414;
+    text-align: center;
+    width: 1600px;
+    font-size: 40px;
+    margin-bottom: 50px;
+    font-weight: 700;
+    margin-top: -100px;
+}
+
+.skill-container {
+    display: flex;
+    gap: 100px;
+    width: 1600px;
+    background: #FFF;
+    justify-content: center;
+
+}
+
+/* .skill{
+ padding-left: 30px;
+   
+} */
+.btn2 {
+    color: #005FAC;
+    text-align: center;
+    width: 160px;
+    height: 64px;
+    border-radius: 5px;
+    background: #FFF;
+    font-size: 20px;
+    margin-left: 64px;
+    font-weight: 600;
+  
+    background-color: white;
+
+}
+
+.last-sec {
+    color: #FFF; 
+    margin-bottom: 24px;
+    font-size: 40px;
+    width: 459px;
+    font-weight: 700;
+    padding: 59px 617px 0px 64px;
+}
+
+.last-sec1 {
+    width: 1140px;
+    height: 300px;
+    background-image: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0.00) 100%),  url('../images/watch.png');
+margin: 135px 230px 150px 230px;
+
+    border-radius: 8px;
+
+}
+.foot-container{
+    display: flex;
+    width: 1600px;
+height: 577px;
+gap: 331px;
+background: #151414;
+color: #FFF;
+}
+.foot-title{
+    color: #F8F8F8;
+padding: 130px 0px 0px 230px;
+font-size: 45px;
+font-weight: 700;
+
+}
+.foot-des{
+    color: #FFF;
+margin-left: 230px;
+font-size: 16px;
+
+font-weight: 400;
+width: 485px;
+} 
+.contact{
+    margin-left: 230px;
+}
+h4{
+
+    padding: 130px 431px 0 0;
+    font-size: 25px;
+    
+    font-weight: 600;
+    
+}
+input[type="email"]{
+    width: 250px;
+height: 40px;
+border-radius: 5px;
+background: #151414;
+border: 1px solid #FFF;
+}
+input[type="submit"]{
+    width: 160px;
+height: 64px;
+border-radius: 8px;
+background: #005FAC;
+margin-top: 16px;
 }
